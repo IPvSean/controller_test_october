@@ -7,4 +7,4 @@
     - name: create a file
       copy:
         content: '# SEAN DID THIS #'
-        dest: "{{ playbook_dir }}/test.txt
+        dest: "{{ playbook_dir }}/test.txt"
