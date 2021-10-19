@@ -1,0 +1,10 @@
+---
+- name: do the thing
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: create a file
+      copy:
+        content: '# SEAN DID THIS #'
+        dest: "{{ playbook_dir }}/test.txt
